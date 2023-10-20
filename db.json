@@ -27,6 +27,13 @@
       "disciplina": "Agricultura",
       "ativo": "Ativo",
       "id": 21
+    },
+    {
+      "nome": "Pedro",
+      "perfil": "Professor",
+      "disciplina": "HTML",
+      "ativo": "Ativo",
+      "id": 22
     }
   ],
   "alunos": [

@@ -1,5 +1,5 @@
 const getProf = async ()=>{
-    const apiURL = await fetch('http:///localhost:3000/professores')
+    const apiURL = await fetch('https://db-emocionometro.onrender.com/professores')
     const dadosProfessor=await apiURL.json()
      mostrarProf(dadosProfessor)
 }
@@ -42,7 +42,7 @@ const editarProf =(id)=>{
 }
 
 const excluirProf = async(id)=>{
-    await fetch(`http://localhost:3000/professores/${id}`,{method:'DELETE'})
+    await fetch(`https://db-emocionometro.onrender.com/professores/${id}`,{method:'DELETE'})
     getProf()
 }
 

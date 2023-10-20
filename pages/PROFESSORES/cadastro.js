@@ -4,7 +4,7 @@
 const formulario=document.getElementById('formulario')
 
 const cadastrarProf = async (professores)=>{
-    await fetch('http://localhost:3000/professores',{
+    await fetch('https://db-emocionometro.onrender.com/professores',{
       method:'POST',  
       headers:{
         'Accept': 'application/json, text/plain, */*',

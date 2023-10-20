@@ -10,7 +10,7 @@ const getIdUrl=()=>{
 }
 
 const buscarProfessor = async ()=>{
-    const response = await fetch(`http:///localhost:3000/professores/${profId}`)
+    const response = await fetch(`https://db-emocionometro.onrender.com/professores/${profId}`)
     const prof = await response.json()
     return prof
 }
@@ -30,7 +30,7 @@ const carregarDados = async ()=>{
 }
 
 const editarProf = async(prof)=>{
-    await fetch(`http:///localhost:3000/professores/${profId}`,{
+    await fetch(`https://db-emocionometro.onrender.com/professores/${profId}`,{
         method:'PUT',  
         headers:{
           'Accept': 'application/json, text/plain, */*',
