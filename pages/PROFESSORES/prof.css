@@ -1,0 +1,518 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    overflow: hidden;
+}
+
+.conteiner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #F5F4F9;
+}
+
+.logo-foto {
+    background: #F5F4F9;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.logo-coracao {
+    width: 100vh;
+    right: 100vh;
+}
+
+.card-login {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 809px;
+    height: 100vh;
+    border-radius: 24px 0 0 24px;
+    box-shadow: 5px 5px 1em #888;
+}
+
+.email {
+    position: relative;
+}
+
+.label-email {
+    left: 12px;
+    bottom: 53px;
+    position: absolute;
+    background: #FFFFFF;
+    color: 616161;
+}
+
+.senha {
+    position: relative;
+}
+
+.label-senha {
+    left: 12px;
+    bottom: 53px;
+    position: absolute;
+    background: #FFFFFF;
+    color: 616161;
+}
+
+.card-form {
+    padding: 20px;
+    width: 300px;
+}
+
+.card-form h1 {
+    text-align: left;
+}
+
+.card-form img {
+    width: 250px;
+    height: 62.79px;
+}
+
+.card-form form input,
+form textarea {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #edebf6;
+    margin-bottom: 20px;
+}
+
+.suporte {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.botao {
+    width: 300px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #00c247;
+    border: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.entao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #616161;
+    margin-bottom: 15px;
+}
+
+.linha {
+    width: 43px;
+    border-bottom: 1px solid #616161;
+}
+
+header {
+    height: 100px;
+    background: #ffffff;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 35px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-home {
+    padding: 20px;
+}
+
+.logo-home img {
+    width: 280px;
+}
+
+.user-logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.user-logo span {
+    margin-left: 10px;
+}
+
+.linhas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.linha-1 {
+    width: 100%;
+    border-bottom: 5px solid #AA6F34;
+}
+
+.linha-2 {
+    width: 100%;
+    border-bottom: 5px solid #D2772E;
+    ;
+}
+
+.linha-3 {
+    width: 100%;
+    border-bottom: 5px solid #F48221;
+}
+
+.linha-4 {
+    width: 100%;
+    border-bottom: 5px solid #FAA61A;
+}
+
+.linha-5 {
+    width: 100%;
+    border-bottom: 5px solid #F9E423;
+}
+
+.sidebar {
+    background: #F9E423;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    transition: 0.6s ease;
+}
+
+.sidebar .menu-vertical {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.sidebar .menu-vertical .opcoes {
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebar .menu-vertical .opcoes a {
+    color: #AA6F34;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 40px;
+    line-height: 60px;
+    border-left: 7px solid #F9E423;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+.sidebar .menu-vertical .opcoes a:hover {
+    background: #FAA61A;
+    transition: 0.5s ease;
+    border-left: 7px solid #F48221;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.sidebar .menu-vertical .opcoes span {
+    margin-right: 15px;
+    font-size: 34px;
+}
+
+.sidebar .menu-vertical .opcoes a .icone {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.sidebar .menu-vertical .opcoes .submenu {
+    display: none;
+}
+
+.sidebar .menu-vertical .opcoes .submenu a {
+    padding-left: 90px;
+}
+
+.sidebar .menu-vertical .opcoes .submenu a:hover {
+    background: #F48221;
+    transition: 0.3s ease;
+}
+
+.sidebar .menu-vertical .final {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.main {
+    position: relative;
+    margin-left: 300px;
+    background: green;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #F5F4F9;
+}
+
+.central h1 {
+    margin: 0%;
+    padding: 20px;
+}
+
+.bloco-centro{
+    margin-left: 30px;
+    margin-right: 30px;
+    background: #ffffff;
+    height: 300px;
+    border-radius: 24px 24px 24px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow-inline: auto;
+}
+
+#formulario {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#formulario label {
+    display: block;
+    font-weight: bold
+}
+
+#formulario button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+}
+
+.itens {
+    margin-right: 100px;
+}
+
+.btnsalvar{
+    width: 200px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #00c247;
+    border: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.bloco-centro h4{
+    margin-left: 30px;
+}
+
+input{
+    height: 35px;
+    border-radius: 7px;
+    border: 2px solid #edebf6;
+}
+
+select {
+    height: 35px;
+    border-radius: 7px;
+    border: 2px solid #edebf6;
+    width: 180px;
+}
+
+a{
+    text-decoration: none;
+}
+.voltar{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+.voltar span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #858484;
+    background: #e2e2e2;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.paginacao{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/*final do head e sidbar*/
+
+.buscar{
+    display: flex;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.b{
+    background: #00C247;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bbb{
+    background: #00C247;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.main-chart {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow-y: auto;
+}
+
+.main-chart .table {
+    width: 100%;
+    border-collapse:collapse;
+    border-right: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.main-chart .table thead th {
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    justify-content: space-around;
+}
+
+.main-chart .table tbody tr {
+    text-align: center;
+    background: #ffffff;
+    border: 10px solid #F5F4F9;
+    border-radius: 20px;
+}
+
+.main-chart .table tbody td {
+    background: #ffffff;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.main-chart .lapis {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../assets/icones/lapis.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+  }
+
+.main-chart .lixo {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../assets/icones/lixeira.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+  }
+
+#input-busca{
+    width: 300px;
+    height: 40px;
+    border: 2px solid #edebf6;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] .ativo{
+    width: 50px;
+    height: 50px;
+    appearance: nome;
+    background-color: #00c247;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 16px 1px;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+  }
+  
+  .toggle input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red; /* Cor "inativo" */
+    transition: 0.4s;
+    border-radius: 15px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: green; /* Cor "ativo" */
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+

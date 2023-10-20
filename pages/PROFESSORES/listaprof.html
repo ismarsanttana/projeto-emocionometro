@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="prof.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="listar.js" defer></script>
+    <script src="pesquisar.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Listar Professor</title>
+</head>
+
+<body id="principal">
+    <header>
+        <div class="logo-home">
+            <img src="../../assets/icones/icone.svg" />
+        </div>
+        <div class="user-logo">
+            <img src="../../assets/icones/user1.svg" />
+            <span>Ismar Santtana</span>
+        </div>
+    </header>
+    <div class="linhas">
+        <div class="linha-1"></div>
+        <div class="linha-2"></div>
+        <div class="linha-3"></div>
+        <div class="linha-4"></div>
+        <div class="linha-5"></div>
+    </div>
+    <nav>
+        <div class="sidebar">
+            <div class="menu-vertical">
+                <div class="opcoes"><a href="../../pages/bem-vindo/inicio.html"><span class="material-symbols-outlined">
+                            home
+                        </span>
+                        Início</a></div>
+                <div class="opcoes">
+                    <a class="acordion-usuarios"><span class="material-symbols-outlined">
+                            person_add
+                        </span>Usuários<span class="material-symbols-outlined icone">
+                            chevron_right
+                        </span></a>
+                    <div class="submenu">
+                        <a href="../../pages/PROFESSORES/listaprof.html" class="opcao-submenu">Professor</a>
+                        <a href="../../pages/ALUNOS/listaalunos.html" class="opcao-submenu">Aluno</a>
+                    </div>
+                </div>
+                <div class="opcoes"><a href="../../pages/EMOCIONOMETRO/emocionometro.html"><span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        Emocionômetro</a></div>
+                <div class="final">
+                    <div class="opcoes"><a href=""><span class="material-symbols-outlined">
+                                person
+                            </span>
+                            Meu perfil</a></div>
+                    <div class="opcoes"><a href="../../login.html"><span class="material-symbols-outlined">
+                                logout
+                            </span>
+                            Sair</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="central">
+                <h1 class="paginacao">Usuário > Professor</h1>
+                    <div class="buscar">
+                        <input id="input-busca" type="text" class="form-control mt-3 mb-3" placeholder="Pesquise uma palavra-chave">
+                        <a href="../../pages/PROFESSORES/profcadastro.html" ><button  class="b">+ Novo usuário</button></a>
+                    </div>
+                    <div class="main-chart">
+                        <table class="table">
+                            <thead>
+                                <th>Nome</th>
+                                <th>Discíplina</th>
+                                <th>Perfil</th>
+                                <th>Ativo</th>
+                                <th>Ações</th>
+                            </thead>
+                            <tbody id="tabela-prof"></tbody>
+                        </table>
+                    </div>   
+        </div>
+    </div>
+</body>
+
+</html>

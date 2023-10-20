@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.main-login{
+    width: 100%;
+    display: flex;
+    background: #F5F4F9;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    right: 600px;
+}
+
+.left-login{
+    background: #F5F4F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.right-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0 0 25px;
+    box-shadow: 5px 5px 1em #888;
+    background: white;
+    width: 809px;
+    height: 650px;
+}
+
+.card-login{
+    padding: 20px;
+    width: 300px;
+}
+
+form input, form textarea {
+    border: 2px solid #edebf6;;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.content-email{
+    position: relative;
+
+}
+
+.label-senha{
+    position: absolute;
+    bottom: 350px;
+    background: white;
+    left: 970px;
+    color: #616161;
+}
+
+.label-email{
+    position: absolute;
+    bottom: 32px;
+    left: 12px;
+    background: white;
+    color: #616161;
+}
+
+.botton-entrar{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background: #00C247 !important;
+    border: 0px !important;
+}
+
+.botton-cadastrar{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: #00C247 !important;
+    border: 0px !important;
+}
+
+.vetor-login{
+    width: 300px;
+    height: 60px;
+}
+
+.linhas{
+    display: flex;
+    color: #616161;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.linha-h{
+    width: 43px;
+    border-bottom: 1px solid #616161;
+}

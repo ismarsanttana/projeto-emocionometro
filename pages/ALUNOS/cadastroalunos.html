@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="alunos.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="cadastroalunos.js" defer></script>
+        <script src="appalunos.js" defer></script>
+    <title>Novo Usuário</title>
+</head>
+
+<body id="principal">
+    <header>
+        <div class="logo-home">
+            <img src="../../assets/icones/icone.svg" />
+        </div>
+        <div class="user-logo">
+            <img src="../../assets/icones/user1.svg" />
+            <span>Ismar Santtana</span>
+        </div>
+    </header>
+    <div class="linhas">
+        <div class="linha-1"></div>
+        <div class="linha-2"></div>
+        <div class="linha-3"></div>
+        <div class="linha-4"></div>
+        <div class="linha-5"></div>
+    </div>
+    <nav>
+        <div class="sidebar">
+            <div class="menu-vertical">
+                <div class="opcoes"><a href="../../pages/bem-vindo/inicio.html"><span class="material-symbols-outlined">
+                            home
+                        </span>
+                        Início</a></div>
+                <div class="opcoes">
+                    <a class="acordion-usuarios"><span class="material-symbols-outlined">
+                            person_add
+                        </span>Usuários<span class="material-symbols-outlined icone">
+                            chevron_right
+                        </span></a>
+                    <div class="submenu">
+                        <a href="../../pages/PROFESSORES/listaprof.html" class="opcao-submenu">Professor</a>
+                        <a href="pages/ALUNOS/listaalunos.html" class="opcao-submenu">Aluno</a>
+                    </div>
+                </div>
+                <div class="opcoes"><a href="../../pages/EMOCIONOMETRO/emocionometro.html"><span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        Emocionômetro</a></div>
+                <div class="final">
+                    <div class="opcoes"><a href=""><span class="material-symbols-outlined">
+                                person
+                            </span>
+                            Meu perfil</a></div>
+                    <div class="opcoes"><a href="#"><span class="material-symbols-outlined">
+                                logout
+                            </span>
+                            Sair</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="central">
+            <div class="voltar">
+                <a href="../../pages/ALUNOS/listaalunos.html"><span class="material-symbols-outlined">
+                    arrow_circle_left
+                    </span></a>
+                    <h1>Novo Usuário > Aluno</h1>
+            </div>
+            <div class="bloco-centro">
+                <h4>Dados do Usuário</h4>
+                <form id="formulario">
+                    <div class="itens">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="itens">
+                        <label for="turma">Turma</label>
+                        <input type="text" name="turma" id="turma" required>
+                    </div>
+                    <div class="itens">
+                        <label for="ativo">Ativo</label>
+                        <label class="toggle">
+                            <input type="checkbox" id="ativo" name="ativo" value="Ativo">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <button class="btnsalvar" type="submit">Salvar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
