@@ -41,7 +41,7 @@ const editarAlunos =(id)=>{
 }
 
 const excluirAlunos = async(id)=>{
-    await fetch(`http://localhost:3000/alunos/${id}`,{method:'DELETE'})
+    await fetch(`https://db-emocionometro.onrender.com/alunos/${id}`,{method:'DELETE'})
     getAlunos()
 }
 
